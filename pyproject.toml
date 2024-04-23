@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pzmodgrabber"
+version = "0.1.0"
+description = "Basic tool for pulling Project Zomboid Mod Details from the Steam Workshop"
+authors = ["Bryce Jenkins <bryce@brycejenkins.net>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
